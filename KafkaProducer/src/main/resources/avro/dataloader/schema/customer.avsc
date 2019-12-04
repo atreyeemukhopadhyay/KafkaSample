@@ -1,0 +1,12 @@
+{
+ "namespace":"com.loader.serializer.avro",
+ "type":"record",
+ "name":"BankCustomer",
+ "fields":[
+   {"name":"customerId","type":["null", "string"],"default" : null},
+   {"name":"customerName","type":["null", "string"],"default" : null},
+   {"name":"contactDetails","type":["null", "string"],"default" : null},
+   {"name":"products","type":["null", "string"],"default" : null},
+   {"name":"registrationtime","type" : "long"}
+  ]
+}

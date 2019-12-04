@@ -1,0 +1,11 @@
+{
+ "namespace":"com.loader.serializer.avro",
+ "type":"record",
+ "name":"BankProduct",
+ "fields":[
+   {"name":"productId","type":"string"},
+   {"name":"productName","type":"string"},
+   {"name":"productType","type" : "string"},
+   {"name":"productDescription","type":"string"}
+  ]
+}
