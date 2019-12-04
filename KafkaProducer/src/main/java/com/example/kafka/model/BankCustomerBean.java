@@ -9,6 +9,17 @@ public class BankCustomerBean {
     private String products;
     private long registrationTime;
 
+    public BankCustomerBean() {
+    }
+
+    public BankCustomerBean(String customerId, String customerName, String contactDetails, String products, long registrationTime) {
+        this.customerId = customerId;
+        this.customerName = customerName;
+        this.contactDetails = contactDetails;
+        this.products = products;
+        this.registrationTime = registrationTime;
+    }
+
     public BankCustomerBean(CustomerBuilder builder){
         this.customerId = builder.customerId;
         this.customerName =  builder.customerName;

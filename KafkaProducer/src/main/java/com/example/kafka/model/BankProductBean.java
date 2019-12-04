@@ -9,6 +9,9 @@ public class BankProductBean {
     private String productType;
     private String productDescription;
 
+    public BankProductBean() {
+    }
+
     public BankProductBean(ProductBuilder builder) {
         this.productId = builder.productId;
         this.productName = builder.productName;

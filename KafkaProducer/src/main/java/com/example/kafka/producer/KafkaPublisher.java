@@ -22,7 +22,7 @@ public class KafkaPublisher {
     @Autowired
     ProductDataGenerator productDataGenerator;
 
-    @Scheduled(cron = "0 * * * * ?")
+    @Scheduled(cron = "0 0 0 * * ?")
     public void produceStreams() {
         customerDataProducer.publishCustomerData();
         productDataGenerator.publishProductData();
